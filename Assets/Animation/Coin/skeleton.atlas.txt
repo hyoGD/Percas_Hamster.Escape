@@ -1,0 +1,34 @@
+
+skeleton.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin-front
+  rotate: false
+  xy: 2, 2
+  size: 1263, 1250
+  orig: 1263, 1250
+  offset: 0, 0
+  index: -1
+coin-side-round
+  rotate: false
+  xy: 1267, 970
+  size: 144, 282
+  orig: 144, 282
+  offset: 0, 0
+  index: -1
+coin-side-straight
+  rotate: false
+  xy: 1267, 439
+  size: 17, 282
+  orig: 17, 282
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 1267, 723
+  size: 72, 245
+  orig: 72, 245
+  offset: 0, 0
+  index: -1

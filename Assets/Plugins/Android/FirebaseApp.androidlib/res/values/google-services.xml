@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">974947744951</string>
+  <string name="google_storage_bucket" translatable="false">hamster-escape-be610.appspot.com</string>
+  <string name="project_id" translatable="false">hamster-escape-be610</string>
+  <string name="google_api_key" translatable="false">AIzaSyBBog4gpUp7v4W2c_dr_5pMytKLHfy1pk8</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBBog4gpUp7v4W2c_dr_5pMytKLHfy1pk8</string>
+  <string name="google_app_id" translatable="false">1:974947744951:android:3537429232928f2f706132</string>
+  <string name="default_web_client_id" translatable="false">974947744951-p8eeevu49i4g1sgkecpo1hp5dr309l7n.apps.googleusercontent.com</string>
+</resources>

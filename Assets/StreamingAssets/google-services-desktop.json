@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "974947744951",
+    "project_id": "hamster-escape-be610",
+    "storage_bucket": "hamster-escape-be610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974947744951:android:3537429232928f2f706132",
+        "android_client_info": {
+          "package_name": "net.percas.hideandseek.hamster.escape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974947744951-p8eeevu49i4g1sgkecpo1hp5dr309l7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBog4gpUp7v4W2c_dr_5pMytKLHfy1pk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974947744951-p8eeevu49i4g1sgkecpo1hp5dr309l7n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "974947744951-6ntjfceg4r0u59g07met0m5alqqojhpp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.percas.hideandseek.hamster.escape"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

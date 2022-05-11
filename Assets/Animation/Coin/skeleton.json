@@ -1,0 +1,139 @@
+{
+"skeleton": {
+	"hash": "9XKCea4Za13Mdv1ABTppyNrC0AI",
+	"spine": "3.8.99",
+	"x": -151.71,
+	"y": -150.15,
+	"width": 303.42,
+	"height": 300.3,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "coin front", "parent": "root" },
+	{ "name": "coin side round", "parent": "root" },
+	{ "name": "shine", "parent": "root" },
+	{ "name": "shine clipping", "parent": "root" },
+	{ "name": "coin side straight", "parent": "root" },
+	{ "name": "coin front2", "parent": "root" }
+],
+"slots": [
+	{ "name": "coin side straight", "bone": "coin side straight", "color": "b0261dff", "attachment": "coin-side-straight" },
+	{ "name": "coin side round", "bone": "coin side round", "color": "b0261dff", "attachment": "coin-side-round" },
+	{ "name": "coin front", "bone": "coin front", "attachment": "coin-front" },
+	{ "name": "coin front2", "bone": "coin front2" },
+	{ "name": "shine clipping", "bone": "shine clipping", "attachment": "shine clipping" },
+	{ "name": "shine", "bone": "shine", "color": "ffffff68", "attachment": "shine", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"coin front": {
+				"coin-front": { "scaleX": 0.2402, "scaleY": 0.2402, "width": 1263, "height": 1250 }
+			},
+			"coin front2": {
+				"coin-front": { "scaleX": 0.2402, "scaleY": 0.2402, "width": 1263, "height": 1250 }
+			},
+			"coin side round": {
+				"coin-side-round": { "x": -70.63, "width": 144, "height": 282 }
+			},
+			"coin side straight": {
+				"coin-side-straight": { "scaleX": 1.1212, "width": 17, "height": 282 }
+			},
+			"shine": {
+				"shine": { "x": 288.2, "y": -10.33, "scaleX": 1.2137, "scaleY": 1.4212, "width": 72, "height": 245 }
+			},
+			"shine clipping": {
+				"shine clipping": {
+					"type": "clipping",
+					"end": "shine clipping",
+					"vertexCount": 28,
+					"vertices": [ -12.54, -141.38, 28.53, -137.53, 60.45, -126.82, 86.07, -110.65, 106.02, -91.75, 121.35, -69.49, 133.53, -42.61, 138.78, -17.33, 140.25, 7.58, 136.05, 33.99, 127.02, 60.55, 111.73, 85.44, 89.26, 108.75, 62.59, 125.97, 30.25, 137.52, -1.46, 140.67, -39.51, 135.86, -74.79, 120.95, -101.48, 100.37, -121.22, 76.64, -135.5, 45.98, -142.64, 16.69, -143.06, -10.82, -136.55, -44.95, -122.48, -73.93, -106.1, -95.56, -79.22, -118.45, -48, -133.43 ],
+					"color": "ce3a3aff"
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"coin front": {
+				"attachment": [
+					{ "time": 1.0333, "name": null }
+				]
+			},
+			"coin front2": {
+				"attachment": [
+					{ "time": 1, "name": "coin-front" }
+				]
+			},
+			"coin side round": {
+				"attachment": [
+					{ "time": 1, "name": null },
+					{ "time": 1.0333, "name": "coin-side-round" }
+				]
+			}
+		},
+		"bones": {
+			"shine": {
+				"translate": [
+					{},
+					{ "time": 1, "x": -633.31 },
+					{ "time": 2 }
+				]
+			},
+			"coin front": {
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.005 },
+					{ "time": 2 }
+				]
+			},
+			"shine clipping": {
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.005 },
+					{ "time": 2 }
+				]
+			},
+			"coin side round": {
+				"translate": [
+					{},
+					{ "time": 0.9667, "x": -16.97 },
+					{ "time": 1, "x": -0.55 },
+					{ "time": 1.0333, "x": 0.2 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.9667, "x": 0.044 },
+					{ "time": 1, "x": 0.139 },
+					{ "time": 1.0333, "x": -0.045 },
+					{ "time": 2, "x": -0.974, "y": 0.974 }
+				]
+			},
+			"coin side straight": {
+				"translate": [
+					{},
+					{ "time": 0.9667, "x": -8.93 },
+					{ "time": 1, "x": -7.4 }
+				]
+			},
+			"coin front2": {
+				"translate": [
+					{},
+					{ "time": 1, "x": -16.48 },
+					{ "time": 2 }
+				],
+				"scale": [
+					{},
+					{ "time": 1, "x": 0.005 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}
